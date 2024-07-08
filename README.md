@@ -36,17 +36,17 @@ source ~/.bashrc
 
 [Oficinal](https://github.com/pyenv-win/pyenv-win)
 
-Passo a passo
+Passo a passo que usei caso o oficial não seja do seu agrado
 
 ```bash
 Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv-win/pyenv-win/master/pyenv-win/install-pyenv-win.ps1" -OutFile "./install-pyenv-win.ps1"; &"./install-pyenv-win.ps1"
 ```
 
-Quando terminar de instalar basta configurar usando `pyenv install "sua versã aqui sem as aspas"`
+Quando terminar de instalar basta configurar usando `pyenv install "sua versão aqui sem as aspas"`
 
 Reinicie o terminal
 
-pyenv local 3.9.2
+Definindo a versão local usando o comando `pyenv local 3.9.2`
 
 ## Ativando a env com Poetry
 
